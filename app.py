@@ -11,7 +11,7 @@ from getQuote import get_quote
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///task.sqlite'
 app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
-app.config['SECRET_KEY'] = "helloworld"
+app.config['SECRET_KEY'] = ""
 db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.login_view = 'login'
