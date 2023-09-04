@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>About</title>
+{% endblock %}
+
+{% block body %}
+    <div class="flex flex-column min-h-screen">
+        <div class="container grow">
+            <p class="text-3xl font-bold p-4">About this project</p>
+            <div class="text-gray-900 text-3xl p-4">
+                <a href="https://www.linkedin.com/in/atrin-shahroudi/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Script-Java">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <p class="text-xl p-4">Motitask is more than just a task management app; it's a personal project born out of a genuine need and a passion for coding. Inspired by the frustration of constantly jotting down to-dos on pieces of paper, Motitask is a testament to the power of open source innovation.</p>
+            <div class="">
+                <p class="text-3xl font-bold p-4">Tools Used:</p>
+                <ul class="text-xl p-4 list-disc list-inside">
+                    <li>Flask</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>Tailwindcss</li>
+                    <li>Flowbite</li>
+                </ul>
+        
+            </div>
+        </div>
+    </div>
+{% endblock %}
