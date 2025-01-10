@@ -1,6 +1,6 @@
-Flask==3.1.0
-Flask-SQLAlchemy==3.1.1
-Flask-Login==0.6.2
-Flask-WTF==1.1.1
-Werkzeug==3.0.0
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+Werkzeug
 gunicorn
