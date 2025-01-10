@@ -5,3 +5,4 @@ Flask-WTF
 Werkzeug
 gunicorn
 requests
+email_validator
